@@ -3,7 +3,7 @@ package com.example.spring_security.controller;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("auth")
+@RequestMapping("/method")
 public class AuthController {
 
     @GetMapping("/get")
